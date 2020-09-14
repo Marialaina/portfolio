@@ -162,10 +162,21 @@ I like how this website uses slides. I don't want my slides to look like this bu
 
 ## Schedule
 
-| Layout  | Priority:  6  | Time:  10 hrs     |Actual Time: 
-
-|Navigation | Priority:  8 | Time: 6 hrs  | Actual Time:  
-
-|Theme | Priority: 2 | Time: 1 hr | Actual Time:
-
-|Working with API | Priority: 7 hrs  | Actual Time: 
+| Component | Priority | Estimated Time | Actual Time |
+| --- | :---: |  :---: | :---: | 
+| Layout | H | 1hr | hr |
+| Main Page Layout | H | 3hr | hr |
+| Responsive for Main Page | H | 1hr | hr |  
+| About Me Layout using Flex | H | 1.5hr|  hr | 
+| About Me Responsive | M | 3hr | hr|
+| Projects Layout|    | M   |  3hrs |    |
+| Skills Layout | M | 3 hrs   |    | 
+| Skills responsive | M   | 1 hr or less    |      |
+| Work / Education Layout|  M  |  2hrs   |     |
+| work/Education Responsive| M|   1hr   |       |
+| Contact Me Layout|  M  |  2hrs   |       |
+| Contact Me Responsive| H    |  4 hrs   |      |
+| Working with API | H | 3hrs|  hr | 
+| Responsive | H | 3hr | hr | hr |
+| Social Media Icons | L | 1hr |  hr |
+| Total | H | 30hrs +| hrs |
