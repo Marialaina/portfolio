@@ -113,3 +113,59 @@ function reverse(string) {
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
 **RESOLUTION**: Missing comma after first object in sources {} object
+
+
+//https://www.sespinos.net/# 
+website that I like and would like to have mine have almost the same framework. I like when I click on something it doesn't go to a knew link. I like how simple it is. I want mine to be very simple but organized too. 
+
+
+
+#### Project Overview 
+
+|Day 1|
+Project Description:
+|Day 2| 
+Wireframes / Priority Matrix / Timeline :
+|Day 3| 
+Core Application Structure (HTML, CSS, etc.) :
+|Day 4| 
+MVP & Bug Fixes :
+|Day 5| 
+Final Touches | Present :
+
+## Projects
+  I really want my portfolio to be simple. If possible when clicking on a button to see my skills/about/ projects etc.. I just want it to hover the main page and it not going to a new page. When it hovers it will hide the other options and have an x on the corner to exit the page they're on. I want to add my work and education on the same page because I don't have any work experience in the field yet. I'm going to add my github with my projects since it's something a recruiter looks at when looking to see the work I've done. I want Skills to be it's on page and hopefully I can add more to it. I want there to be a contact page that provides my email or it can give the user an option to reach out to me. I want my mobile to have the same framework but if possible put the buttons on a side or center but also give the user to swipe up and down to see the pages. If they click on a button I want it to automatically scroll down to where it talks about the option they clicked on. I don't want it to go to a new link. 
+
+### Insperations :
+
+https://www.sespinos.net/# 
+website that I like and would like to have mine have almost the same framework. I like when I click on something it doesn't go to a knew link. I like how simple it is. I want mine to be very simple but organized too. I also like when clicked on something it doesn't go to a new link.
+
+
+https://insidethehead.co/
+
+I like how this website uses slides. I don't want my slides to look like this but it helps me visualize more.
+
+
+
+## My links to add to the page:
+[Projects](https://docs.google.com/spreadsheets/d/1QHRCoLjGvakXjF665KhdFsBuGYuhRS_6POGI-olPViE/edit?usp=sharing)
+[MyGithub](https://github.com/Marialaina)
+
+
+# WireFrame 
+[](IMG_2962.jpg "this is the tooltip")
+[](IMG_2960.jpg "this is the tooltip")
+[](IMG_2963.jpg "this is the tooltip")
+[](IMG_2963.jpg "this is the tooltip")
+
+
+## Schedule
+
+| Layout  | Priority:  6  | Time:  10 hrs     |Actual Time: 
+
+|Navigation | Priority:  8 | Time: 6 hrs  | Actual Time:  
+
+|Theme | Priority: 2 | Time: 1 hr | Actual Time:
+
+|Working with API | Priority: 7 hrs  | Actual Time: 
