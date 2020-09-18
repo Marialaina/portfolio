@@ -6,7 +6,7 @@
 
 body::after {
     content: "";
-    background-image: url('../guillaume-le-louarn-uC21aXJ7yQs-unsplash.jpg');
+    background-image: url("https://res.cloudinary.com/dj7bt3ah7/image/upload/v1600438621/guillaume-le-louarn-uC21aXJ7yQs-unsplash_znain3.jpg");
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
