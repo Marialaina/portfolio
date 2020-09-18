@@ -1,4 +1,8 @@
-
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
 
 body::after {
     content: "";
@@ -17,14 +21,11 @@ body::after {
     -webkit-filter: blur(.15px);
     height: 2000px;
     
-}
-*,
-*::before,
-*::after{
-  box-sizing: border-box;
+    
 }
 
-/* Update for my own desing */
+
+
 :root{
   --fw-reg: 300;
   --fw-bold: 900;
@@ -88,13 +89,12 @@ h3{ font-size: var(--fs-h3)}
 
 .section__subtitle{
   margin: 0;
-  font-size(var--fs-h3);
+  
 }
 
 .section__subtitle--intro,
 .section__subtitle--about{
-  background: var(--clr-accent);
-  font-family: var(--ff-secondary);
+
   margin-bottom: 1em;
 }
 
@@ -143,7 +143,7 @@ display: inline-block;
 }
 
 .my-services {
-  background-color: var(--clr-dark);
+  background-color: gray;
   background-size: cover;
   text-align: center;
 }
