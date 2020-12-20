@@ -1,3 +1,22 @@
+//requesting the email
+
+
+  // https://dashboard.emailjs.com/admin/integration
+  emailjs.init("user_zAcx6q7Wv6r2UjM9HQ0KA");
+  document.getElementById('contact-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // generate a five digit number for the contact_number variable
+      this.contact_number.value = Math.random() * 100000 | 0;
+      // these IDs from the previous steps
+      emailjs.sendForm('service_7rk5zku', 'contact_form', this)
+          .then(function() {
+              console.log('SUCCESS!');
+          }, function(error) {
+              console.log('FAILED...', error);
+          });
+  });
+
+
 $(() => {
   if (typeof $ == 'undefined'){
     console.log('oops! I still have to link my jQuery properly!');
@@ -17,9 +36,7 @@ $(() => {
     console.log('this is projectsArr', projectsArr)
 }
 
-
-  
-  //This is to make the api call
+  //This is to make the api call for my projects
   $.ajax({url:sheetAsJSON})
     .then( data => {
       //return a new array of data..best way to do that is....map()
@@ -50,18 +67,10 @@ $(() => {
     console.log('all projects rendered...');
   });
 
-  
- 
-
     })
   })
 
-
-
-
-
-
-
+// Getting my moduls to work
   const modalBtns = [...document.querySelectorAll(".button")];
   modalBtns.forEach(function(btn){
   btn.onclick = function() {
@@ -71,7 +80,6 @@ $(() => {
 }
 });
 
-
 const closeBtns = [...document.querySelectorAll(".close-button")];
   closeBtns.forEach(function(btn){
   btn.onclick = function(){
@@ -80,11 +88,11 @@ const closeBtns = [...document.querySelectorAll(".close-button")];
 }
 });
 
-
-
 window.onclick = function(event){
 if (event.target.className === "modal"){
   event.target.style.display = "none";
 }
 }
+
+
 
