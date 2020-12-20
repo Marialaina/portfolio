@@ -1,0 +1,190 @@
+/* styling the page */
+body::after {
+  content: "";
+  background: url('https://res.cloudinary.com/dj7bt3ah7/image/upload/v1600438621/guillaume-le-louarn-uC21aXJ7yQs-unsplash_znain3.jpg');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  filter: contrast(140%);
+}
+
+#about_me {
+  position: fixed;
+  
+  right: 50px;
+  color: #7e1946;
+}
+
+#button-group{
+  position: absolute;
+  bottom: 4rem;
+  left: 21rem;
+  
+}
+
+.heading {
+  position: absolute;
+  /* getting the text in the center of the box */
+ 
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+ 
+  
+  bottom: 45%;
+  left: 28rem;
+  border: 2px solid;
+  width: 25rem;
+  padding: 4rem;
+  transform: translate(-15%, 15%);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+/* styling my modal */
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  /*makes the content hidden in the modal */
+  display: none;
+}
+
+.modal-content {
+  position: absolute;
+  /* I don't want the position of modal to come up in the center */
+  top: 55%;
+  left: 50%;
+  /* transform: translate(-50%, -50%);
+  background-color: white; */
+  transform: translate(-50%, -50%);
+  background-color:#0b6291;
+  padding: 14rem;
+  width: 24rem;
+  height: 10rem;
+  border-radius: 0.20rem;
+  color: white;
+}
+.close-button {
+  /* float: right; */
+  position: absolute;
+  top: 25px;
+  right: -10px;
+  width: 50px;
+  cursor: pointer; 
+ 
+}
+
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  /* transform: scale(1.0); */
+  
+}
+
+/* STYLING MY BUTTON */
+
+button {
+  border: none;
+  background-color:inherit;
+  padding: 14px 28px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  
+
+}
+
+button:hover {background:rgba(0, 0, 0, 0.1);}
+
+/* Styling Projects inside Modal */
+
+.projects-main {
+  position: absolute;
+  top: 15%;
+
+  
+}
+
+#projects, .modal-title{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+/* STYLING CONTACT */
+  .name {
+    position: absolute;
+    top: 25%;
+    right: 45%;
+    font-size: 20px;
+  }
+  .input_name {
+    position: absolute;
+    top: 28%;
+    /* left: 30%; */
+    width: 50%;
+    height: 5%;
+    border-radius: 0.30rem;
+  }
+  .email {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 45%;
+  }
+  .input_email {
+    position: absolute;
+    top: 40%;
+    width: 50%;
+    height: 5%;
+    border-radius: 0.30rem;
+    left: 27%;
+  }
+  .message {
+    position: absolute;
+    top: 50%;
+    color: white;
+    position: absolute;
+    right: 43%;
+    font-size: 23px;
+ }
+  .text {
+    position: absolute;
+    top: 54%;
+    width: 60%;
+    height: 17%;
+    border-radius: 0.30rem;
+    right: 17%;
+  }
+  .submit_bt {
+    position: absolute;
+    top: 75%;
+    position: absolute;
+    right: 45%;
+  }
+
+
+
+  
+
+
+
+
+
+/*  STYLING MY MOBILE */
+
+@media(min-width: 700px){
+
+}
